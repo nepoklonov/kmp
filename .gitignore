@@ -1,0 +1,11 @@
+# Intellij
+.idea/
+!.idea/runConfigurations
+!.idea/runConfigurations/*
+
+#Gradle
+.gradle
+
+#Other
+build
+local.properties
