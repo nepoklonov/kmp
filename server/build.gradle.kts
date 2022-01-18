@@ -21,7 +21,7 @@ dependencies {
 
     implementation("io.ktor:ktor-server-netty:$ktorVersion")
     implementation("io.ktor:ktor-html-builder:$ktorVersion")
-    implementation("ch.qos.logback:logback-classic:$logbackVersion")
+    runtimeOnly("ch.qos.logback:logback-classic:$logbackVersion")
 
     implementation(enforcedPlatform(kotlinWrappers("wrappers-bom:0.0.1-${kotlinWrappersSuffix}")))
     implementation(kotlinWrappers("css"))
