@@ -1,6 +1,6 @@
 [![Gradle](https://img.shields.io/badge/gradle-7.3.3-steelblue?logo=gradle)](https://gradle.org/)
 [![Kotlin](https://img.shields.io/badge/kotlin-1.6.10-mediumpurple.svg?logo=kotlin)](http://kotlinlang.org)
-[![Maven Central](https://img.shields.io/maven-central/v/org.jetbrains.kotlin-wrappers/kotlin-wrappers-bom)](https://mvnrepository.com/artifact/org.jetbrains.kotlin-wrappers/kotlin-wrappers-bom)
+[![Kotlin Wrappers](https://img.shields.io/badge/kotlin--wrappers-v0.0.1--pre.290--kotlin--1.6.10-orange.svg)](https://mvnrepository.com/artifact/org.jetbrains.kotlin-wrappers/kotlin-wrappers-bom)
 # KMP starter project
 A hello-world project for kotlin multiplatform.
 
