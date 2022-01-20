@@ -5,7 +5,6 @@ import kotlinx.html.*
 
 @Suppress("unused")
 fun Application.module() {
-
     routing {
         get("{...}") {
             call.respondHtml {

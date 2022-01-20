@@ -15,8 +15,9 @@ fun kotlinWrappers(target: String): String =
     "org.jetbrains.kotlin-wrappers:kotlin-$target"
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
+    implementation(project(":shared"))
+
+    implementation(kotlin("reflect"))
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinxSerializationVersion")
 
     implementation("io.ktor:ktor-server-netty:$ktorVersion")
@@ -25,8 +26,6 @@ dependencies {
 
     implementation(enforcedPlatform(kotlinWrappers("wrappers-bom:0.0.1-${kotlinWrappersSuffix}")))
     implementation(kotlinWrappers("css"))
-
-    implementation(project(":shared"))
 
     testImplementation(kotlin("test"))
 }
